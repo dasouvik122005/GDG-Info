@@ -1,4 +1,4 @@
-### Hands-on Activity: Creating and Merging a Pull Request
+### Hands-on Activity: COMMIT HUNT
 
 To successfully complete the activity, attendees must perform the following steps:
 
@@ -9,19 +9,20 @@ To successfully complete the activity, attendees must perform the following step
      git clone <your-forked-repo-url>
      ```
 
-2. **Create a New Branch**  
-   - Create a branch using your name and year as the branch name:  
+2. **Go to the proper branch**  
+   - On the same branch that you have made during the session! 
      ```bash
-     git checkout -b <your-nameYear>
+     git checkout <full-roll-number>
      ```
-     For eg Ramesh3 for 3rd year 
+     For eg 22CS20XXXXX
 
 3. **Task 1 : Add a New File**  
-   - Navigate to the project directory and add a specific file (e.g., `your-email.py`):  
+   - Navigate to the project directory and add a specific file (e.g., `<your-email>.py`):  
      ```bash
      print("your-email-address")
      ```  
-     - Replace `<your-email-address>` with your actual email.  
+     - Replace `<your-email-address>` with your actual email.
+     - Replace `<your-email>` with your email upto @.
 
 4. **Task 2 : Add your name in main.cpp file**  
    - Navigate to the *main.cpp* inside project directory 
@@ -32,7 +33,11 @@ To successfully complete the activity, attendees must perform the following step
      string contributor_names[] = { "Manish", "Ayushman" };// add your name here 
      ```    
 
-5. **Stash apply and Commit Changes**  
+5. **Stash apply and Commit Changes**
+   - Stash apply:
+   ```bash
+   git stash apply
+   ```  
    - Stage the new file:  
      ```bash
      git add <your-email>.py
@@ -42,18 +47,18 @@ To successfully complete the activity, attendees must perform the following step
      git commit -m "Added file for email <your-email>"
      ```
 
-6. **Push Changes to Your Branch**  
+7. **Push Changes to Your Branch**  
    - Push the branch to your forked repository:  
      ```bash
-     git push origin <your-email_new>
+     git push origin <your-roll-number>
      ```
 
-7. **Create a Pull Request**  
+8. **Create a Pull Request**  
    - Go to the original repository on GitHub.  
    - Click **Compare & Pull Request** for your branch.  
    - Add a description summarizing your changes and submit the pull request.
 
-8. **Wait for Review and Merge**  
+9. **Wait for Review and Merge**  
    - The pull request will be reviewed by the instructor or team.  
    - Once approved, it will be merged into the main repository.  
 
