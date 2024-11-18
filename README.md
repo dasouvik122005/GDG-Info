@@ -1,4 +1,4 @@
-### Hands-on Activity: COMMIT HUNT
+![image](https://github.com/user-attachments/assets/fe918a90-5452-4ae5-b958-fac0e0731ca8)### Hands-on Activity: COMMIT HUNT
 
 To successfully complete the activity, attendees must perform the following steps:
 
@@ -24,7 +24,8 @@ To successfully complete the activity, attendees must perform the following step
      - Replace `<your-email-address>` with your actual email.
      - Replace `<your-email>` with your email upto @.
 
-4. **Task 2 : Add your name in main.cpp file**  
+4. **Task 2 : Add your name in main.cpp file**
+   - Sync and pull from your branch.
    - Navigate to the *main.cpp* inside project directory 
    - Add you name in contributor_name array 
    - Note the decoded string after running the file.
@@ -32,8 +33,9 @@ To successfully complete the activity, attendees must perform the following step
      ```cpp
      string contributor_names[] = { "Manish", "Ayushman" };// add your name here 
      ```    
-
-5. **Stash apply and Commit Changes**
+   - Use `https://www.programiz.com/cpp-programming/online-compiler/` to get the OUTPUT of the code!
+  
+6. **Stash apply and Commit Changes**
    - Stash apply:
    ```bash
    git stash apply
