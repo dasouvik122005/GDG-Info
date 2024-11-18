@@ -10,47 +10,60 @@ To successfully complete the activity, attendees must perform the following step
      ```
 
 2. **Create a New Branch**  
-   - Create a branch using your roll number as the branch name:  
+   - Create a branch using your name and year as the branch name:  
      ```bash
-     git checkout -b <your-roll-number>
+     git checkout -b <your-nameYear>
      ```
+     For eg Ramesh3 for 3rd year 
 
-3. **Add a New File**  
-   - Navigate to the project directory and add a specific file (e.g., `your-roll-number.py`):  
+3. **Task 1 : Add a New File**  
+   - Navigate to the project directory and add a specific file (e.g., `your-email.py`):  
      ```bash
      print("your-email-address")
      ```  
      - Replace `<your-email-address>` with your actual email.  
 
-4. **Stash apply and Commit Changes**  
+4. **Task 2 : Add your name in main.cpp file**  
+   - Navigate to the *main.cpp* inside project directory 
+   - Add you name in contributor_name array 
+   - Note the decoded string after running the file.
+
+     ```cpp
+     string contributor_names[] = { "Manish", "Ayushman" };// add your name here 
+     ```    
+
+5. **Stash apply and Commit Changes**  
    - Stage the new file:  
      ```bash
-     git add <your-roll-number>.py
+     git add <your-email>.py
      ```  
    - Commit the changes with a meaningful commit message:  
      ```bash
-     git commit -m "Added file for email <your-roll-number>"
+     git commit -m "Added file for email <your-email>"
      ```
 
-5. **Push Changes to Your Branch**  
+6. **Push Changes to Your Branch**  
    - Push the branch to your forked repository:  
      ```bash
-     git push origin <your-roll-number_new>
+     git push origin <your-email_new>
      ```
 
-6. **Create a Pull Request**  
+7. **Create a Pull Request**  
    - Go to the original repository on GitHub.  
    - Click **Compare & Pull Request** for your branch.  
    - Add a description summarizing your changes and submit the pull request.
 
-7. **Wait for Review and Merge**  
+8. **Wait for Review and Merge**  
    - The pull request will be reviewed by the instructor or team.  
    - Once approved, it will be merged into the main repository.  
 
 ---
 
 ### Completion Criteria
-- The pull request should include the correctly named file `<your-roll-number>.txt`.
+- The pull request should include the correctly named file `<your-email>.py`.
 - The file must contain your name, roll number, and a short introduction.
+- Add your name in contributor_names array at main.cpp.
+- Run the main.cpp & note down the secret message. 
 - The branch name must match your roll number.
 - The pull request must not have merge conflicts with the main branch.
+- Upload the noted secret message at this form https://forms.gle/vZUjYQtQkCQYieu78 for your attendance.
