@@ -14,7 +14,7 @@ To successfully complete the activity, attendees must perform the following step
      ```bash
      git checkout <full-roll-number>
      ```
-     For eg 22CS20XXXXX
+     For eg 24CS20XXXXX
 
 3. **Task 1 : Add a New File**  
    - Navigate to the project directory and add a specific file (e.g., `<your-email>.py`):  
